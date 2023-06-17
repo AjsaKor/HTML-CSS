@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    }
+
+    .menuLink {
+        color: cornflowerblue;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .mainTitle {
+        color: #222222;
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: bold;
+    }
+
+    .textParagraph {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 26px;
+        color: #424047;
+    }
+
+    .secondTitle {
+        color: #222222;
+        font-size: 28px;
+        line-height: 36px;
+        font-weight: bold;
+    }
+
+
+    .productName {
+        color: rgb(22, 22, 22);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    .productDescription {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 26px;
+        color: #77767c;
+    }
+
+
+
