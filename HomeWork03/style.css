@@ -45,8 +45,15 @@ header {
     margin-bottom: 84px;
 }
 
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .navigation {
     width: 533px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navigation_link {
@@ -64,12 +71,13 @@ main {
     margin-bottom: 163px;
 }
 
-.conten_wrapper {
-
+.content_wrapper {
+    display: flex;
+    gap: 39px;
 }
 
 .content_block {
-
+width: 522px;
 }
 
 .content_mainTitle {
@@ -78,6 +86,7 @@ main {
     line-height: 70px;
     counter-reset: #000;
     margin-bottom: 17px;
+    width: 522px;
 }
 
 .content_description {
@@ -86,9 +95,12 @@ main {
     line-height: 23px;
     color: #888888;
     margin-bottom: 37px;
+    width: 466px;
 }
 
 .content_btns {
+    display: flex;
+    gap: 36px;
 
 }
 .content_btns_startNow {
@@ -117,9 +129,10 @@ main {
 }
 
 footer {
-
+    padding: 96px 0;
 }
 
 .logos {
-
+    display: flex;
+    justify-content: space-between;
 }
