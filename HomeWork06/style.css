@@ -21,14 +21,15 @@ img {
     margin: 0 auto;
 }
 
-head {
+header {
+    background-color: #222222;
     
 }
 
 .header_wrapper {
     display: flex;
     justify-content: center;
-    gap: 860px;
+    gap: 859px;
     background-color: #222222;
 }
 
@@ -61,7 +62,6 @@ head {
 
 .banner_section {
     display: flex;
-    height: 764px;
     background-color: #F1E4E6;
     margin-bottom: 65px;
 }
@@ -84,7 +84,7 @@ head {
     color: #222;
     font-size: 32px;
     font-family: Lato;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .red_text {
@@ -92,9 +92,9 @@ color: #F16D7F;
 }
 
 .categories {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.7fr;
     gap: 30px;
     margin-bottom: 96px;
 }
@@ -104,7 +104,7 @@ color: #F16D7F;
     text-align: center;
 }
 .accesories {
-    
+    grid-column: 1/4;
 }
 
 .img_filter {
@@ -123,6 +123,7 @@ color: #F16D7F;
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .categories_text {
@@ -130,6 +131,7 @@ color: #F16D7F;
     text-align: center;
     font-size: 16px;
     font-family: Lato;
+    font-weight: 400;
 }
 
 .categories_mainTitle {
@@ -137,6 +139,7 @@ color: #F16D7F;
     text-align: center;
     font-size: 24px;
     font-family: Lato;
+    font-weight: 700;
 }
 
 .catalog {
@@ -148,6 +151,7 @@ color: #F16D7F;
     font-size: 30px;
     font-family: Lato;
     text-align: center;
+    margin-bottom: 6px;
 }
 
 .catalog_text {
@@ -155,16 +159,23 @@ color: #F16D7F;
     font-size: 14px;
     font-family: Lato;
     text-align: center;
+    margin-bottom: 48px;
 }
 
-.catalog_cards {
-    display: flex;
-    flex-flow: column wrap;
+.catalog_cardList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
     margin-bottom: 48.5px;
 }
 
 .catalog_card {
 background-color: #F8F8F8;
+}
+
+.card_description {
+    padding: 23px 20px 16.5px 29px;
 }
 
 .card_name {
@@ -186,10 +197,25 @@ background-color: #F8F8F8;
     font-family: Lato;
 }
 
+.card_background {
+    display: flex;
+    justify-content: center;
+    height: 420px;
+    background-color: #F7E4E2;
+}
+
+.btn_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .catalog_btn {
     color: #F26376;
     font-size: 16px;
     font-family: Lato;
     border: 1px solid #FF6A6A;
     padding: 14.5px 38.5px 13.5px 38.5px;
+    background-color: #FFF;
+    
 }
+
