@@ -23,52 +23,51 @@ img {
 
 header {
     background-color: #222222;
+    padding: 19px 0;
 }
 
 .header_wrapper {
     display: flex;
-    justify-content: center;
-    gap: 859px;
+    justify-content: space-between;
     background-color: #222222;
 }
 
 .logo {
     display: flex;
     gap: 41px;
-    margin-top: 18px;
-    margin-bottom: 19px;
-    min-width: 111px;
 }
 
 .header_search {
-    background-color: #222222;
+    background-color: transparent;
     border: none;
     cursor: pointer;
 }
 
 .header_btn {
     display: flex;
-    margin-top: 26px;
-    margin-bottom: 20px;
     gap: 33px;
 }
 
 .header_btn_icon {
-    background-color: #222222;
+    background-color: transparent;
     outline: none;
     border: none;
     cursor: pointer;
+}
+
+.banner {
+    background-color: #f1e4e6;
+	margin-bottom: 65px;
 }
 
 .banner_section {
     display: flex;
     justify-content: center;
     background-color: #F1E4E6;
-    margin-bottom: 65px;
+    align-items: center;
 }
 
 .banner_title {
-    margin-top: 290px;
     height: 92px;
     border-left: 12px solid #F16D7F;
     padding-left: 16px;
@@ -226,21 +225,11 @@ background-color: #F8F8F8;
     .container {
         width: 736px;
     }  
-    .header_wrapper {
-        width: 768px;
-        gap: 424;
-    } 
     .header_btn {
         gap: 25px;
     }
-    .banner_section {
-        width: 768px;
-    }
     .banner_section img {
         width: 386px;
-    }
-    .banner_title {
-        margin-top: 138px;
     }
     .banner_mainTitle {
         font-size: 44px;
