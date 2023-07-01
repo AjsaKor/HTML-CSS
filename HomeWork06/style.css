@@ -256,5 +256,56 @@ background-color: #F8F8F8;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 16 px;
     }
+    /* Адаптив для моб.телефона */
+
+@media (max-width: 375px) {
+    .container {
+        width: 359px;
+    }    
+    .collapse_icon{
+        display: none;
+    }
+    .banner {
+        height: 363px;
+        margin-bottom: 64px;
+        display: flex;
+        justify-content: center;
+    }
+    .banner_section img {
+        display: none;
+    }
+    .banner_mainTitle {
+        font-size: 38px;
+    }
+    .banner_subtitle {
+        font-size: 20px;
+    }
+    .categories {
+        width: 343px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 32px;
+        margin-bottom: 64px;
+    }
+    .accesories{
+        grid-column: 1/2;
+    }
+    .accesories img {
+        height: 111px;
+    }
+    .catalog_title {
+        margin-bottom: 3px;
+    }
+    .catalog_text {
+        margin-bottom: 64px;
+    }
+    .catalog_cardList {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 16px;
+        margin-bottom: 64pxpx;
+    }
+}
 }
 
