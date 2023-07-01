@@ -61,9 +61,9 @@ header {
 }
 
 .banner_section {
+    max-width: 1600px;
     display: flex;
     justify-content: center;
-    background-color: #F1E4E6;
     align-items: center;
 }
 
@@ -192,7 +192,7 @@ background-color: #F8F8F8;
 }
 
 .card_price {
-    color: #F16D7F;
+    color: #f16d7f;
     font-size: 16px;
     font-family: Lato;
 }
@@ -201,7 +201,7 @@ background-color: #F8F8F8;
     display: flex;
     justify-content: center;
     height: 420px;
-    background-color: #F7E4E2;
+    background-color: #f7e4e2;
 }
 
 .btn_wrapper {
@@ -210,16 +210,16 @@ background-color: #F8F8F8;
 }
 
 .catalog_btn {
-    color: #F26376;
+    color: #f26376;
     font-size: 16px;
     font-family: Lato;
-    border: 1px solid #FF6A6A;
+    border: 1px solid #ff6a6a;
     padding: 14.5px 38.5px 13.5px 38.5px;
-    background-color: #FFF;
+    background-color: #fff;
     
 }
 
-
+/* Адаптив для планшета */
 
 @media (max-width: 768px) {
     .container {
@@ -227,6 +227,9 @@ background-color: #F8F8F8;
     }  
     .header_btn {
         gap: 25px;
+    }
+    .banner {
+        margin-bottom: 110px;
     }
     .banner_section img {
         width: 386px;
@@ -254,3 +257,4 @@ background-color: #F8F8F8;
         gap: 16 px;
     }
 }
+
