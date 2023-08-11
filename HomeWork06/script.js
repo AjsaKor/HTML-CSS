@@ -1,10 +1,11 @@
-const menuActive = document.querySelector( selectors: '.menu_wrapper' );
-const menuHeader = document.querySelector(  selectors: '.menu_btn' );
-const menuClose = document.querySelector( selectors: '.menu_close' );
+
+const menuActive = document.querySelector('.menu_wrapper' );
+const menuHeader = document.querySelector('.menu_btn' );
+const menuClose = document.querySelector('.menu_close' );
 
 function toggleMenu() {
-menuActive.classList.toggle( token: 'hidden');
+menuActive.classList.toggle('hidden');
 }
 
-menuHeader.addEventListener( type: 'click', listener: toggleMenu);
-menuClose.addEventListener( type: 'click', listener: toggleMenu);
+menuHeader.addEventListener('click', toggleMenu);
+menuClose.addEventListener('click', toggleMenu);
